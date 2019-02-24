@@ -36,8 +36,7 @@ Windows太简单了，直接看官网的教程就OK了~。
     sudo apt-get install openvpn
 
 下载配置文件：
-openvpn.zip,下载后解压缩，假定解压缩文件夹为
-~/Downloads/openvpn需要把这里的文件复制到openvpn的安装包里： 
+openvpn.zip,下载后解压缩，假定解压缩文件夹为~/Downloads/openvpn需要把这里的文件复制到openvpn的安装包里： 
 这里如果我没记错的话，应该不能手动复制粘贴~
 
     sudo mv ~/Downloads/openvpn/etc/openvpn
