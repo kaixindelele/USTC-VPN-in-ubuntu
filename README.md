@@ -10,6 +10,15 @@
 ## Windows如何使用？
 
 Windows太简单了，直接看官网的教程就OK了~。
+但是为了免除每次手动输密码的烦恼，还是加上这段吧。
+在openvpn这个文件夹中新建一个文件：account
+对，没有.txt的后缀，只有单独的account，然后用editplus，或者notepad++打开编辑
+输入两行：
+你的帐号
+你的密码
+
+OK，然后在dianxin的配置文件中加上这段话，和Ubuntu的一样：
+auth-user-pass account
 
 ## 关于申请账号
 如何申请账号只要是科大学籍的学生，尤其是联培的学生，应该都可以申请账号
